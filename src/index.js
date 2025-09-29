@@ -61,6 +61,10 @@ app.delete('/users/:id', (req, res) => {
     res.status(204).send(); // No content
 });
 
+app.get('/', (req, res) => {
+    res.send('Hello World!');
+});
+
 // Do not touch the code below this comment
 // **************************************************************
 
